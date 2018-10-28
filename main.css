@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,700,700i,800,800i,900,900i");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  cursor: crosshair;
+  font-family: Poppins;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper1 {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 9%;
+  left: 10%;
+  width: 30%;
+}
+
+path {
+  stroke: #fff;
+  fill: #fff;
+  stroke-dasharray: 2000;
+  opacity: 10;
+  animation: animate 2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+svg {
+  width: 150px;
+  height: 350px;
+  margin: 140px 100px;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    fill: none;
+    stroke-dasharray: 1800;
+  }
+
+  30% {
+    opacity: 10;
+    fill: none;
+    stroke-dasharray: 1800;
+  }
+
+  90% {
+    fill: rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    opacity: 10;
+    fill: rgba(255, 255, 255, 1);
+    stroke-dasharray: 1800;
+  }
+}
+
+h1 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 42px;
+  position: absolute;
+  top: 32%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  font-family: Poppins;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.rev-block {
+  position: absolute;
+}
+
+.rev-block span {
+  opacity: 0;
+  animation: appear-text 0.0001s linear forwards;
+  animation-delay: 1.4s;
+}
+
+.rev-block:after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background: #bf9b30;
+  animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 1s;
+}
+
+@keyframes rev-block {
+  0% {
+    left: 0;
+    width: 0%;
+  }
+  50% {
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
+
+@keyframes appear-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#onemore {
+  top: 45%;
+  left: 58%;
+}
+
+#onemore span {
+  animation-delay: 2s;
+}
+
+#onemore.rev-block:after {
+  background: #ffcf40;
+  animation-delay: 1.4s;
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 20px;
+    padding: 0.4em;
+  }
+}
+
+.glitch {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(img/classic-keys-letters-593650.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.glitch:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("img/background1.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.glitch:hover:before {
+  animation: animate 0.2s infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+    filter: hue-rotate(0deg);
+  }
+  10% {
+    background-position: 4px 0;
+  }
+  20% {
+    background-position: -4px 0;
+  }
+  30% {
+    background-position: 12px 0;
+  }
+  40% {
+    background-position: -16px 0;
+  }
+  50% {
+    background-position: -24px 0;
+  }
+  60% {
+    background-position: -52px 0;
+  }
+  70% {
+    background-position: 0 0;
+  }
+  80% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 0;
+    filter: hue-rotate(360deg);
+  }
+}
+
+.btn {
+  font-family: Poppins;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  display: block;
+  padding: 24px 48px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 6px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  background: none;
+  z-index: 1;
+  cursor: crosshair;
+  transition: 0.8s ease-out;
+}
+
+.btn:hover {
+  color: #101010;
+  cursor: crosshair;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  background: #755e17;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  transition: top 0.8s ease-out;
+}
+
+.btn:hover:before {
+  top: 0;
+}
