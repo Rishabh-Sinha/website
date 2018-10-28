@@ -212,7 +212,7 @@ h3 {
   background: #b3a036;
 }
 .html {
-  width: 90%;
+  width: 100%;
   animation: html 2s;
 }
 .css {
@@ -240,7 +240,7 @@ h3 {
     width: 0%;
   }
   100% {
-    width: 90%;
+    width: 100%;
   }
 }
 @keyframes css {
