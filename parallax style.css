@@ -49,7 +49,7 @@ div:nth-child(1) {
   background-size: cover;
 }
 div:nth-child(2) {
-  background-image: url(/img/pexels-photo-698327.jpeg);
+  background-image: url(https://images.pexels.com/photos/1010496/pexels-photo-1010496.jpeg?cs=srgb&dl=abstract-backlight-black-1010496.jpg&fm=jpg);
   background-size: cover;
   background-attachment: fixed;
   height: 600px;
