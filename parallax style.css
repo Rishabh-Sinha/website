@@ -45,30 +45,30 @@ h1 {
 }
 
 div:nth-child(1) {
-  background-image: url(/img/pexels-photo-841228.jpeg);
+  background-image: url(https://images.pexels.com/photos/841228/pexels-photo-841228.jpeg?cs=srgb&dl=blur-contemporary-desk-841228.jpg&fm=jpg);
   background-size: cover;
 }
 div:nth-child(2) {
-  background-image: url(/img/pexels-photo-698327.jpeg);
+  background-image: url(https://images.pexels.com/photos/1010496/pexels-photo-1010496.jpeg?cs=srgb&dl=abstract-backlight-black-1010496.jpg&fm=jpg);
   background-size: cover;
   background-attachment: fixed;
   height: 600px;
 }
 div:nth-child(3) {
-  background-image: url(/img/pexels-photo-371906.jpeg);
+  background-image: url(https://images.pexels.com/photos/32997/pexels-photo.jpg?cs=srgb&dl=abstract-art-blue-32997.jpg&fm=jpg);
   background-size: cover;
   background-attachment: fixed;
   height: 450px;
 }
 
 div:nth-child(4) {
-  background-image: url(/img/edu.jpg);
+  background-image: url(https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?cs=srgb&dl=abstract-art-background-633409.jpg&fm=jpg);
   background-size: cover;
   background-attachment: fixed;
   height: 400px;
 }
 div:nth-child(5) {
-  background-image: url(/img/pic4.jpg);
+  background-image: url(https://images.pexels.com/photos/719399/pexels-photo-719399.jpeg?cs=srgb&dl=battery-black-background-cellphone-719399.jpg&fm=jpg);
   height: 300px;
   background-size: cover;
   background-attachment: fixed;
@@ -155,6 +155,7 @@ p {
   color: rgb(179, 172, 172);
 }
 .div-wrapper img {
+  background-image:url(http://cdn.onlinewebfonts.com/svg/img_229681.png);
   height: 80px;
   width: 130px;
   position: absolute;
