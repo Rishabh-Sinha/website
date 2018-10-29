@@ -164,8 +164,8 @@ p {
   padding-bottom: 10px;
 }
 .profilepic img {
-  background-image:url(https://preview.ibb.co/nopp0q/Whats-App-Image-2018-10-19-at-10-45-24-PM-4.jpg);
-  height: 35%;
+  background-image:url("https://preview.ibb.co/nopp0q/Whats-App-Image-2018-10-19-at-10-45-24-PM-4.jpg");
+  height: 30%;
   width: 13%;
   position: absolute;
   border-radius: 5%;
