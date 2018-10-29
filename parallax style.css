@@ -55,14 +55,14 @@ div:nth-child(2) {
   height: 600px;
 }
 div:nth-child(3) {
-  background-image: url(/img/pexels-photo-371906.jpeg);
+  background-image: url(https://images.pexels.com/photos/32997/pexels-photo.jpg?cs=srgb&dl=abstract-art-blue-32997.jpg&fm=jpg);
   background-size: cover;
   background-attachment: fixed;
   height: 450px;
 }
 
 div:nth-child(4) {
-  background-image: url(/img/edu.jpg);
+  background-image: url(https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?cs=srgb&dl=abstract-art-background-633409.jpg&fm=jpg);
   background-size: cover;
   background-attachment: fixed;
   height: 400px;
