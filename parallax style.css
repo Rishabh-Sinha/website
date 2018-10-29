@@ -52,7 +52,7 @@ div:nth-child(2) {
   background-image: url(https://images.pexels.com/photos/1010496/pexels-photo-1010496.jpeg?cs=srgb&dl=abstract-backlight-black-1010496.jpg&fm=jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 600px;
+  height: 400px;
 }
 div:nth-child(3) {
   background-image: url(https://images.pexels.com/photos/32997/pexels-photo.jpg?cs=srgb&dl=abstract-art-blue-32997.jpg&fm=jpg);
@@ -153,28 +153,6 @@ h2 {
 p {
   margin-left: 3.5em;
   color: rgb(179, 172, 172);
-}
-.div-wrapper img {
-  background-image:url(http://cdn.onlinewebfonts.com/svg/img_229681.png);
-  height: 80px;
-  width: 130px;
-  position: absolute;
-  bottom: 2px;
-  right: 45%;
-  padding-bottom: 10px;
-}
-.profilepic img {
-  background-image:url("https://preview.ibb.co/nopp0q/Whats-App-Image-2018-10-19-at-10-45-24-PM-4.jpg");
-  height: 30%;
-  width: 13%;
-  position: absolute;
-  border-radius: 5%;
-  top: 130%;
-  right: 40%;
-  padding: 5%;
-  padding-top: 5%;
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
 }
 h3 {
   color: whitesmoke;
