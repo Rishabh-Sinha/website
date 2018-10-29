@@ -45,7 +45,7 @@ h1 {
 }
 
 div:nth-child(1) {
-  background-image: url(/img/pexels-photo-841228.jpeg);
+  background-image: url(https://images.pexels.com/photos/841228/pexels-photo-841228.jpeg?cs=srgb&dl=blur-contemporary-desk-841228.jpg&fm=jpg);
   background-size: cover;
 }
 div:nth-child(2) {
