@@ -277,7 +277,7 @@ h3 {
 ul {
   display: flex;
   position: absolute;
-  top: 315%;
+  top: 325%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
