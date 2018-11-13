@@ -52,7 +52,7 @@ div:nth-child(2) {
   background-image: url(https://images.pexels.com/photos/1010496/pexels-photo-1010496.jpeg?cs=srgb&dl=abstract-backlight-black-1010496.jpg&fm=jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 600px;
+  height: 400px;
 }
 div:nth-child(3) {
   background-image: url(https://images.pexels.com/photos/32997/pexels-photo.jpg?cs=srgb&dl=abstract-art-blue-32997.jpg&fm=jpg);
@@ -69,7 +69,7 @@ div:nth-child(4) {
 }
 div:nth-child(5) {
   background-image: url(https://images.pexels.com/photos/719399/pexels-photo-719399.jpeg?cs=srgb&dl=battery-black-background-cellphone-719399.jpg&fm=jpg);
-  height: 300px;
+  height: 350px;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -153,27 +153,6 @@ h2 {
 p {
   margin-left: 3.5em;
   color: rgb(179, 172, 172);
-}
-.div-wrapper img {
-  background-image:url(http://cdn.onlinewebfonts.com/svg/img_229681.png);
-  height: 80px;
-  width: 130px;
-  position: absolute;
-  bottom: 2px;
-  right: 45%;
-  padding-bottom: 10px;
-}
-.profilepic img {
-  height: 35%;
-  width: 13%;
-  position: absolute;
-  border-radius: 5%;
-  top: 130%;
-  right: 40%;
-  padding: 5%;
-  padding-top: 5%;
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
 }
 h3 {
   color: whitesmoke;
@@ -298,7 +277,7 @@ h3 {
 ul {
   display: flex;
   position: absolute;
-  top: 315%;
+  top: 295%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -355,7 +334,7 @@ ul li:nth-child(3) a:before {
   background: #e4405f;
 }
 
-ul li:nth-child(4) a:before {
+ul li:nth-child(4) a:before { 
   background: #55acee;
 }
 
